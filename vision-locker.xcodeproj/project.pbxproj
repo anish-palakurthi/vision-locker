@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1D89C92C7BFCD800726324 /* vision_lockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D89C82C7BFCD800726324 /* vision_lockerApp.swift */; };
+		1A1D89CB2C7BFCD800726324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D89CA2C7BFCD800726324 /* ContentView.swift */; };
+		1A1D89CD2C7BFCD900726324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D89CC2C7BFCD900726324 /* Assets.xcassets */; };
+		1A1D89D02C7BFCD900726324 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D89CF2C7BFCD900726324 /* Preview Assets.xcassets */; };
+		1A1D89DA2C7BFCD900726324 /* vision_lockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D89D92C7BFCD900726324 /* vision_lockerTests.swift */; };
+		1A1D89E42C7BFCD900726324 /* vision_lockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D89E32C7BFCD900726324 /* vision_lockerUITests.swift */; };
+		1A1D89E62C7BFCD900726324 /* vision_lockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D89E52C7BFCD900726324 /* vision_lockerUITestsLaunchTests.swift */; };
+		1A1D89F32C7C101E00726324 /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D89F22C7C101E00726324 /* ScreenTimeManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A1D89D62C7BFCD900726324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1D89BD2C7BFCD800726324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1D89C42C7BFCD800726324;
+			remoteInfo = "vision-locker";
+		};
+		1A1D89E02C7BFCD900726324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1D89BD2C7BFCD800726324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1D89C42C7BFCD800726324;
+			remoteInfo = "vision-locker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1D89C52C7BFCD800726324 /* vision-locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vision-locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1D89C82C7BFCD800726324 /* vision_lockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vision_lockerApp.swift; sourceTree = "<group>"; };
+		1A1D89CA2C7BFCD800726324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A1D89CC2C7BFCD900726324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A1D89CF2C7BFCD900726324 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A1D89D52C7BFCD900726324 /* vision-lockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vision-lockerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1D89D92C7BFCD900726324 /* vision_lockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vision_lockerTests.swift; sourceTree = "<group>"; };
+		1A1D89DF2C7BFCD900726324 /* vision-lockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vision-lockerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1D89E32C7BFCD900726324 /* vision_lockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vision_lockerUITests.swift; sourceTree = "<group>"; };
+		1A1D89E52C7BFCD900726324 /* vision_lockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vision_lockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A1D89F22C7C101E00726324 /* ScreenTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A1D89C22C7BFCD800726324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1D89D22C7BFCD900726324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1D89DC2C7BFCD900726324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1D89BC2C7BFCD800726324 = {
+			isa = PBXGroup;
+			children = (
+				1A1D89C72C7BFCD800726324 /* vision-locker */,
+				1A1D89D82C7BFCD900726324 /* vision-lockerTests */,
+				1A1D89E22C7BFCD900726324 /* vision-lockerUITests */,
+				1A1D89C62C7BFCD800726324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A1D89C62C7BFCD800726324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D89C52C7BFCD800726324 /* vision-locker.app */,
+				1A1D89D52C7BFCD900726324 /* vision-lockerTests.xctest */,
+				1A1D89DF2C7BFCD900726324 /* vision-lockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1D89C72C7BFCD800726324 /* vision-locker */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D89C82C7BFCD800726324 /* vision_lockerApp.swift */,
+				1A1D89F22C7C101E00726324 /* ScreenTimeManager.swift */,
+				1A1D89CA2C7BFCD800726324 /* ContentView.swift */,
+				1A1D89CC2C7BFCD900726324 /* Assets.xcassets */,
+				1A1D89CE2C7BFCD900726324 /* Preview Content */,
+			);
+			path = "vision-locker";
+			sourceTree = "<group>";
+		};
+		1A1D89CE2C7BFCD900726324 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D89CF2C7BFCD900726324 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A1D89D82C7BFCD900726324 /* vision-lockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D89D92C7BFCD900726324 /* vision_lockerTests.swift */,
+			);
+			path = "vision-lockerTests";
+			sourceTree = "<group>";
+		};
+		1A1D89E22C7BFCD900726324 /* vision-lockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D89E32C7BFCD900726324 /* vision_lockerUITests.swift */,
+				1A1D89E52C7BFCD900726324 /* vision_lockerUITestsLaunchTests.swift */,
+			);
+			path = "vision-lockerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A1D89C42C7BFCD800726324 /* vision-locker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1D89E92C7BFCD900726324 /* Build configuration list for PBXNativeTarget "vision-locker" */;
+			buildPhases = (
+				1A1D89C12C7BFCD800726324 /* Sources */,
+				1A1D89C22C7BFCD800726324 /* Frameworks */,
+				1A1D89C32C7BFCD800726324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vision-locker";
+			productName = "vision-locker";
+			productReference = 1A1D89C52C7BFCD800726324 /* vision-locker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A1D89D42C7BFCD900726324 /* vision-lockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1D89EC2C7BFCD900726324 /* Build configuration list for PBXNativeTarget "vision-lockerTests" */;
+			buildPhases = (
+				1A1D89D12C7BFCD900726324 /* Sources */,
+				1A1D89D22C7BFCD900726324 /* Frameworks */,
+				1A1D89D32C7BFCD900726324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1D89D72C7BFCD900726324 /* PBXTargetDependency */,
+			);
+			name = "vision-lockerTests";
+			productName = "vision-lockerTests";
+			productReference = 1A1D89D52C7BFCD900726324 /* vision-lockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A1D89DE2C7BFCD900726324 /* vision-lockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1D89EF2C7BFCD900726324 /* Build configuration list for PBXNativeTarget "vision-lockerUITests" */;
+			buildPhases = (
+				1A1D89DB2C7BFCD900726324 /* Sources */,
+				1A1D89DC2C7BFCD900726324 /* Frameworks */,
+				1A1D89DD2C7BFCD900726324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1D89E12C7BFCD900726324 /* PBXTargetDependency */,
+			);
+			name = "vision-lockerUITests";
+			productName = "vision-lockerUITests";
+			productReference = 1A1D89DF2C7BFCD900726324 /* vision-lockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A1D89BD2C7BFCD800726324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1A1D89C42C7BFCD800726324 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1A1D89D42C7BFCD900726324 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1A1D89C42C7BFCD800726324;
+					};
+					1A1D89DE2C7BFCD900726324 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1A1D89C42C7BFCD800726324;
+					};
+				};
+			};
+			buildConfigurationList = 1A1D89C02C7BFCD800726324 /* Build configuration list for PBXProject "vision-locker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A1D89BC2C7BFCD800726324;
+			productRefGroup = 1A1D89C62C7BFCD800726324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A1D89C42C7BFCD800726324 /* vision-locker */,
+				1A1D89D42C7BFCD900726324 /* vision-lockerTests */,
+				1A1D89DE2C7BFCD900726324 /* vision-lockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1D89C32C7BFCD800726324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1D89D02C7BFCD900726324 /* Preview Assets.xcassets in Resources */,
+				1A1D89CD2C7BFCD900726324 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1D89D32C7BFCD900726324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1D89DD2C7BFCD900726324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1D89C12C7BFCD800726324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1D89F32C7C101E00726324 /* ScreenTimeManager.swift in Sources */,
+				1A1D89CB2C7BFCD800726324 /* ContentView.swift in Sources */,
+				1A1D89C92C7BFCD800726324 /* vision_lockerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1D89D12C7BFCD900726324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1D89DA2C7BFCD900726324 /* vision_lockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A1D89DB2C7BFCD900726324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1D89E62C7BFCD900726324 /* vision_lockerUITestsLaunchTests.swift in Sources */,
+				1A1D89E42C7BFCD900726324 /* vision_lockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A1D89D72C7BFCD900726324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A1D89C42C7BFCD800726324 /* vision-locker */;
+			targetProxy = 1A1D89D62C7BFCD900726324 /* PBXContainerItemProxy */;
+		};
+		1A1D89E12C7BFCD900726324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A1D89C42C7BFCD800726324 /* vision-locker */;
+			targetProxy = 1A1D89E02C7BFCD900726324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A1D89E72C7BFCD900726324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A1D89E82C7BFCD900726324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A1D89EA2C7BFCD900726324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vision-locker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anishpalakurthi.vision-locker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A1D89EB2C7BFCD900726324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vision-locker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anishpalakurthi.vision-locker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A1D89ED2C7BFCD900726324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anishpalakurthi.vision-lockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vision-locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vision-locker";
+			};
+			name = Debug;
+		};
+		1A1D89EE2C7BFCD900726324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anishpalakurthi.vision-lockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vision-locker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vision-locker";
+			};
+			name = Release;
+		};
+		1A1D89F02C7BFCD900726324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anishpalakurthi.vision-lockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vision-locker";
+			};
+			name = Debug;
+		};
+		1A1D89F12C7BFCD900726324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anishpalakurthi.vision-lockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vision-locker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1D89C02C7BFCD800726324 /* Build configuration list for PBXProject "vision-locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1D89E72C7BFCD900726324 /* Debug */,
+				1A1D89E82C7BFCD900726324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1D89E92C7BFCD900726324 /* Build configuration list for PBXNativeTarget "vision-locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1D89EA2C7BFCD900726324 /* Debug */,
+				1A1D89EB2C7BFCD900726324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1D89EC2C7BFCD900726324 /* Build configuration list for PBXNativeTarget "vision-lockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1D89ED2C7BFCD900726324 /* Debug */,
+				1A1D89EE2C7BFCD900726324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1D89EF2C7BFCD900726324 /* Build configuration list for PBXNativeTarget "vision-lockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1D89F02C7BFCD900726324 /* Debug */,
+				1A1D89F12C7BFCD900726324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A1D89BD2C7BFCD800726324 /* Project object */;
+}
